@@ -18,10 +18,20 @@ import {
 
 const Sidebar = () => {
     return (
-        <Box width="100%" height="calc(100vh - 100px)" bg="black" paddingX="5px" color="gray">
-            js
+        <Box
+            width="100%"
+            height="calc(100vh - 100px)"
+            bg="black"
+            paddingX="5px"
+            color="gray">
+
+            <Box paddingY="20px">
+                <Box width="120px" marginBottom="20px" paddingX="20px">
+                    <NextImage src="" height={60} width={120}></NextImage>
+                </Box>
+            </Box>
         </Box>
     )
 }
 
-export default Sidebar
+export default Sidebar;

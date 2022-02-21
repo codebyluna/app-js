@@ -16,3 +16,5 @@ const PlayerLayout = ({ children }) => {
         </Box>
     )
 }
+
+export default PlayerLayout;
